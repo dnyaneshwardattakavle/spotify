@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2096f9c653.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify Logo">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Best of DK - No Copyright Sound</h1>
+        
+        <div class="songItemContainer">
+            <!-- Example song item - repeat for each song -->
+            <div class="songItem">
+                <img src="truelove.jpg" alt="Album Cover">
+                <span>Let Me Love You</span>
+                <span class="songlistplay">
+                    <span class="timestamp">05:34</span>
+                    <i class="fas fa-play"></i>
+                </span>
+            </div>
+            <div class="songItem">
+                <img src="2.jpg" alt="Album Cover">
+                <span>
+  
+                    Wo Zhuti Khai Jo Nibhai Nahi</span>
+                <span class="songlistplay">
+                    <span class="timestamp">05:34</span>
+                    <i class="fas fa-play"></i>
+                </span>
+            </div>
+            <div class="songItem">
+                <img src="3.jpeg" alt="Album Cover">
+                <span>Ki Shrab Kagaj Kalam</span>
+                <span class="songlistplay">
+                    <span class="timestamp">05:34</span>
+                    <i class="fas fa-play"></i>
+                </span>
+            </div>
+            <div class="songItem">
+                <img src="4.jpg" alt="Album Cover">
+                <span>Me Yad Aunga</span>
+                <span class="songlistplay">
+                    <span class="timestamp">05:34</span>
+                    <i class="fas fa-play"></i>
+                </span>
+            </div>
+            <div class="songItem">
+                <img src="5.avif" alt="Album Cover">
+                <span>Mere Jyar Ki Bate</span>
+                <span class="songlistplay">
+                    <span class="timestamp">05:34</span>
+                    <i class="fas fa-play"></i>
+                </span>
+            </div>
+            <div class="songItem">
+                <img src="6.jpeg" alt="Album Cover">
+                <span>Wadi Jab Se Ishq Me Jab Se</span>
+                <span class="songlistplay">
+                    <span class="timestamp">05:34</span>
+                    <i class="fas fa-play"></i>
+                </span>
+            </div>
+            <!-- Add more song items as needed -->
+        </div>
+
+        <div class="songlist"></div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="MyProgressBar" min="0" max="100">
+        <div class="icons">
+            <i class="fas fa-backward" id="previous"></i>
+            <i class="fas fa-play" id="masterPlay"></i>
+            <i class="fas fa-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="giff.gif" width="80px" alt="Playing animation"> Let me love you - Justin Bieber
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
